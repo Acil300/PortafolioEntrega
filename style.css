@@ -372,12 +372,13 @@ header nav{
   text-shadow: 1px 1px 1px #0f0f0f36;
 }
 .card-projects{
-  display:grid;
+  display: grid;
   grid-template-columns: repeat(1, 1fr);
   grid-template-rows: repeat(5,1fr);
   gap: 40px;
   width: 100%;
-  height: 700px;
+  height: 100%;
+  margin-bottom: 200px;
 }
 .container-card-projects{
   border: 3px solid #c22085;
