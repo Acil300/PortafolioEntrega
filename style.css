@@ -56,7 +56,20 @@ header nav{
 .logo{
   position: relative;
 }
-
+.btn-curriculum{
+  margin: 10px auto;
+  width: 140px;
+  height: 30px;
+  background-color:#0eae8c;
+  border: none;
+  border-radius:4px;
+  letter-spacing: 2px;
+  -webkit-border-radius:4px;
+  -moz-border-radius:4px;
+  -ms-border-radius:4px;
+  -o-border-radius:4px;
+  font-weight: 500;
+}
 .logo img {
   position: absolute;
   bottom: -40px;
@@ -147,8 +160,12 @@ header nav{
   height: 100vh;
   display: flex;
   justify-content:center;
-  margin-top: -138px;
+  margin-top: -200px;
   object-fit: cover;
+}
+.link-curriculum{
+  text-decoration: none;
+  color: white;
 }
 .title{
   display: flex;
@@ -210,8 +227,8 @@ header nav{
   height: 3rem;
 }
 .mi-perfil {
-  width: 20rem;
-  height: 20rem;
+  width: 24rem;
+  aspect-ratio: 1;
   color: var(--white);
   position: relative;
   top: 0px;

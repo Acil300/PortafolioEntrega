@@ -1,0 +1,272 @@
+@media (max-width: 992px) {
+  /* .navigation {
+      left: -100%;
+    }
+    .navigation.active {
+      left: 0;
+      width: 100%;
+    }
+    .main.active {
+      left: 100%;
+    }
+    .main .topbar {
+      width: 100%;
+      left: 0;
+      right: 0;
+      padding: 0 50px;
+    }
+    .main .topbar.active {
+      width: 100%;
+      left: 0;
+      right: 0;
+      padding: 0 50px;
+    } */
+
+  .navigation ul {
+    padding: 20px 20px;
+  }
+  .banner .imgbx {
+    width: 250px;
+    height: 250px;
+  }
+  .banner h3,
+  p {
+    text-align: center;
+    margin-top: 50px;
+    color: #fff;
+  }
+  .adjust {
+    padding: 0 20px;
+    padding-top: 80px;
+  }
+  .about .content {
+    flex-direction: column;
+  }
+  .about .content .imgbx {
+    margin-left: 0;
+    margin-top: 20px;
+    max-width: 80%;
+    margin: 0 auto;
+  }
+  .about .content .textbox {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    top: 420px;
+    letter-spacing: 1px;
+  }
+  .about .content.active {
+    width: 100%;
+    max-width: 90%;
+    margin: 0 auto;
+    position: absolute;
+    top: 600px;
+    letter-spacing: 1px;
+  }
+  .adjust {
+    position: relative;
+    min-height: 85vh;
+    padding: 0 40px;
+    padding-top: 30px;
+    background: var(--white);
+  }
+  .service .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin: 40px 0;
+  }
+  .skills .content {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin: 40px 0;
+  }
+  .projects .content {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .contact {
+    max-width: 599px;
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: var(--black2);
+    opacity: 0.9;
+    color: var(--white2);
+    margin: 0 auto;
+  }
+  .contactform,
+  #btn {
+    margin: 0 auto;
+  }
+}
+@media (max-width: 768px) {
+  .skills .content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    margin: 40px 0;
+    justify-items: center;
+    align-items: center;
+  }
+  .service .content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    margin: 40px 0;
+    justify-items: center;
+    align-items: center;
+  }
+  .projects .content {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+  }
+  .textabout {
+    position: relative;
+    left: -15px;
+    top: -50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .textarea {
+    margin: 0 auto;
+  }
+  .adjust {
+    position: relative;
+    min-height: 65vh;
+    padding: 0 40px;
+    padding-top: 30px;
+    background: var(--white);
+  }
+  section {
+    position: relative;
+    min-height: 95vh;
+  }
+  .testimonial .content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 40px 0;
+    grid-gap: 20px;
+  }
+  .contact {
+    background-color: var(--black2);
+    opacity: 0.9;
+    color: var(--white2);
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+  .contact .contactform .row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    margin: 20px;
+    position: relative;
+    left: -18px;
+  }
+  .copyright {
+    padding: 10px 20px;
+  }
+  .contact .contactform .row2 textarea {
+    resize: none;
+    height: 200px;
+    position: relative;
+    left: -18px;
+  }
+  #btn {
+    margin: 0 auto;
+    position: relative;
+    left: -20px;
+  }
+}
+@media (min-width: 480px) {
+  .skills .content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    margin: 0 auto;
+    justify-items: center;
+    align-items: center;
+  }
+  .service .content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    margin: 0 auto;
+
+    justify-items: center;
+    align-items: center;
+  }
+  .projects .content {
+    grid-template-columns: repeat(1, 1fr);
+    justify-items: center;
+    align-items: center;
+  }
+  .textabout {
+    position: relative;
+    left: -15px;
+    top: -50px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  .textarea {
+    margin: 0 auto;
+  }
+  .adjust {
+    position: relative;
+    min-height: 65vh;
+    padding: 0 40px;
+    padding-top: 30px;
+    background: var(--white);
+  }
+  section {
+    position: relative;
+    min-height: 95vh;
+  }
+  .testimonial .content {
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    margin: 40px 0;
+    grid-gap: 20px;
+  }
+  .contact {
+    background-color: var(--black2);
+    opacity: 0.9;
+    color: var(--white2);
+    margin: 0 auto;
+    margin-bottom: 100px;
+  }
+  .contact .contactform .row {
+    width: 100%;
+    display: grid;
+    grid-template-columns: repeat(1, 1fr);
+    grid-gap: 20px;
+    margin: 20px;
+    position: relative;
+    left: -18px;
+  }
+  .copyright {
+    padding: 10px 20px;
+  }
+  .contact .contactform .row2 textarea {
+    resize: none;
+    height: 200px;
+    position: relative;
+    left: -18px;
+  }
+  #btn {
+    margin: 0 auto;
+    position: relative;
+    left: -20px;
+  }
+}
