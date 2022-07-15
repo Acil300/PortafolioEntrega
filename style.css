@@ -56,20 +56,7 @@ header nav{
 .logo{
   position: relative;
 }
-.btn-curriculum{
-  margin: 10px auto;
-  width: 140px;
-  height: 30px;
-  background-color:#0eae8c;
-  border: none;
-  border-radius:4px;
-  letter-spacing: 2px;
-  -webkit-border-radius:4px;
-  -moz-border-radius:4px;
-  -ms-border-radius:4px;
-  -o-border-radius:4px;
-  font-weight: 500;
-}
+
 .logo img {
   position: absolute;
   bottom: -40px;
@@ -455,7 +442,25 @@ header nav{
   padding: 5px;
   color: rgba(0, 255, 200, 0.623);
 }
-
+#curriculum {
+  margin: 10px auto;
+  width: 140px;
+  height: 30px;
+  background-color: #0eae8c;
+  border: none;
+  border-radius: 4px;
+  letter-spacing: 2px;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  -ms-border-radius: 4px;
+  -o-border-radius: 4px;
+  font-weight: 500;
+}
+.curriculum-link{
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
+}
 
 /* CONTACT*/
 .container-contact{
